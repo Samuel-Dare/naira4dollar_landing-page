@@ -1,0 +1,23 @@
+img {
+  width: 9rem;
+  height: 25px;
+}
+
+.nav-item {
+  color: black;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: smaller;
+}
+
+.nav-about {
+  padding-right: 20rem;
+  margin-right: 4rem;
+}
+
+.nav-item:hover {
+  background-color: rgb(26, 56, 104, 0.3);
+  color: rgb(26, 56, 104);
+  font-weight: 700;
+  border-radius: 5px;
+}
