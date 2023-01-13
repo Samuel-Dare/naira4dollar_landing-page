@@ -220,3 +220,81 @@
     z-index: 1;
   }
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .header-box {
+    height: 100vh;
+    background-color: rgb(26, 56, 104);
+    color: white;
+    padding: 4rem 3rem 5px;
+    clip-path: polygon(0 0%, 100% 0, 100% 60%, 20% 100%, 0 100%);
+  }
+
+  .header-text {
+    /* font-family: sans-serif; */
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 6rem;
+    /* font-display: bold;
+    margin-bottom: 15px; */
+  }
+
+  .sub-text {
+
+  }
+  .text {
+    display: block;
+    font-family: sans-serif;
+    /* font-display: italic; */
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .sign-up-box {
+    background-color: whitesmoke;
+    width: 40rem;
+    height: 4.3rem;
+    /*border-radius: 5px;*/
+    margin: 4rem 0;
+  }
+  .input-email {
+    /* border-style: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+    height: 4rem;
+    width: 32rem;
+    /* padding-left: 15px; */
+  }
+
+  .btn-signup {
+    /* background-color: rgb(26, 56, 104); */
+    /* border: 1px solid;
+    margin: auto;
+    height: fit-content;
+    color: white; */
+    font-size: 1.5rem;
+  }
+
+  /* .input-email::after {
+    border-style: none;
+  } */
+
+  .btn-go-to-website-div {
+    background-color: red;
+    height: 4rem;
+    width: 18rem;
+    margin-left: 11rem;
+    border-radius: 50px;
+  }
+
+
+  .website-mobile-view-img {
+    height: 40rem;
+    /* width: fit-content;
+    transform: rotate(5deg);
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+    z-index: 1; */
+  }
+}
