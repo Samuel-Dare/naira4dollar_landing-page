@@ -6,6 +6,10 @@ import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
 const Navbar = () => {
   return (
+// window.addEventListener("scroll", function(){
+//   const nav = this.document.querySelector("nav")
+// })
+
     <div className="bg-light">
       <nav
         // style={{ position: "fixed" }}

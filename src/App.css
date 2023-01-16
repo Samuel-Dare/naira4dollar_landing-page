@@ -8,11 +8,11 @@
   background-color: rgb(240, 248, 255);
 }
 .header-box {
-  position: relative;
+  /* position: relative; */
   height: 100vh;
   background-color: rgb(26, 56, 104);
   color: white;
-  padding: 3rem 1.6rem 5px;
+  padding: 3rem 3rem 5px;
   clip-path: polygon(0 0%, 100% 0, 100% 70%, 47% 100%, 0 100%);
 }
 .text-box {
@@ -80,20 +80,25 @@
   font-weight: 700;
 }
 
-.website-mobile-view-img {
+.website-mobile-view-img-1 {
   height: 15rem;
   width: 15rem;
-  position: absolute;
+  justify-content: center;
+  /* position: absolute; */
   background-size: 1px;
-  top: 1.5rem;
-  right: 0;
+  /* top: 1.5rem;
+  right: 0; */
   transform: rotate(5deg);
-  z-index: 1;
+  /* z-index: 1; */
+}
+
+.website-mobile-view-img-2 {
+  display: none;
 }
 
 .footer-div {
   background-color: rgba(0, 0, 0, 0.8);
-  height: 5rem;
+  height: 8rem;
   position: relative;
 }
 
@@ -108,9 +113,9 @@
 /* For small devices (larger phones) */
 
 @media only screen and (min-width: 600px) {
-  .header-box {
-    padding: 2rem 1.6rem 5px;
-  }
+div{
+  position: relative;
+}
 
   .header-text {
     font-family: sans-serif;
@@ -120,6 +125,8 @@
     font-display: bold;
     margin-bottom: 15px;
   }
+
+ 
 }
 
 /* For medium screen devices */
@@ -138,7 +145,15 @@
     margin-bottom: 15px;
   }
 
-  .website-mobile-view-img {
+  .sign-up-box {
+    margin: 2.5rem 0;
+  }
+  .btn-go-to-website-div {
+    margin-left: 5rem;
+  }
+
+  .website-mobile-view-img-2 {
+    display: inline-block;
     height: 20rem;
     width: fit-content;
     transform: rotate(5deg);
@@ -147,11 +162,9 @@
     right: 4rem;
     z-index: 1;
   }
-  .sign-up-box {
-    margin: 2.5rem 0;
-  }
-  .btn-go-to-website-div {
-    margin-left: 5rem;
+
+  .website-mobile-view-img-1 {
+    display: none;
   }
 }
 
@@ -228,7 +241,7 @@
     background-color: rgb(26, 56, 104);
     color: white;
     padding: 4rem 3rem 5px;
-    clip-path: polygon(0 0%, 100% 0, 100% 60%, 20% 100%, 0 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 50%, 20% 100%, 0 100%);
   }
 
   .header-text {
@@ -282,19 +295,29 @@
   .btn-go-to-website-div {
     background-color: red;
     height: 4rem;
-    width: 18rem;
+    /* width: 18rem; */
+    width: fit-content;
+    height: max-content;
     margin-left: 11rem;
-    border-radius: 50px;
+    /* border-radius: 50px; */
   }
 
+  .btn-go-to-website{
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
 
-  .website-mobile-view-img {
+  .website-mobile-view-img-1{
+    display: none;
+  }
+
+  .website-mobile-view-img-2 {
     height: 40rem;
-    /* width: fit-content;
+    width: fit-content;
     transform: rotate(5deg);
     position: absolute;
     top: 4rem;
-    right: 4rem;
-    z-index: 1; */
+    right: 1.5rem;
+    z-index: 1; 
   }
 }

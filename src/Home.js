@@ -14,6 +14,12 @@ const Home = () => {
             <span className="text">Do you need an accessible company?</span>
           </p>
 
+          <img
+          className="website-mobile-view-img-1"
+          src="naira4dollar_images/naira4dollar mobile-view photo4.png"
+          alt=""
+        />
+
           <div className="sign-up-box">
             <input
               className="input input-email"
@@ -25,14 +31,14 @@ const Home = () => {
         <div className="btn-go-to-website-div">
           <button className="btn btn-go-to-website">Continue to website</button>
         </div>
+
       </div>
-      <div className="img-div">
-        <img
-          className="website-mobile-view-img"
+
+      <img
+          className="website-mobile-view-img-2"
           src="naira4dollar_images/naira4dollar mobile-view photo4.png"
           alt=""
         />
-      </div>
     </div>
   );
 };

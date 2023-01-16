@@ -3,11 +3,15 @@ img {
   height: 25px;
 }
 
+nav{
+  /* position: fixed; */
+}
+
 .nav-item {
   color: black;
   font-family: sans-serif;
   font-weight: 500;
-  font-size: smaller;
+  font-size: small;
 }
 
 .nav-about {
@@ -20,4 +24,17 @@ img {
   color: rgb(26, 56, 104);
   font-weight: 700;
   border-radius: 5px;
+}
+
+@media only screen and (min-width: 1200px) {
+  nav{
+    height: 5rem;
+  }
+  img {
+    width: 15rem;
+    height: 32px;
+  }
+  .nav-item{
+    font-size: large;
+  }
 }
